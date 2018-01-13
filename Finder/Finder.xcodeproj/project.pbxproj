@@ -14,6 +14,7 @@
 		410D9F282009E3D400853F23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D9F272009E3D400853F23 /* main.m */; };
 		410D9F332009E3D400853F23 /* FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D9F322009E3D400853F23 /* FinderTests.m */; };
 		410D9F3E2009E3D400853F23 /* FinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D9F3D2009E3D400853F23 /* FinderUITests.m */; };
+		410D9F4D2009E52D00853F23 /* GHMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D9F4C2009E52D00853F23 /* GHMainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		410D9F392009E3D400853F23 /* FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		410D9F3D2009E3D400853F23 /* FinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderUITests.m; sourceTree = "<group>"; };
 		410D9F3F2009E3D400853F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410D9F4B2009E52D00853F23 /* GHMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHMainView.h; sourceTree = "<group>"; };
+		410D9F4C2009E52D00853F23 /* GHMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHMainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				410D9F1C2009E3D400853F23 /* AppDelegate.m */,
 				410D9F1E2009E3D400853F23 /* ViewController.h */,
 				410D9F1F2009E3D400853F23 /* ViewController.m */,
+				410D9F4B2009E52D00853F23 /* GHMainView.h */,
+				410D9F4C2009E52D00853F23 /* GHMainView.m */,
 				410D9F212009E3D400853F23 /* Assets.xcassets */,
 				410D9F232009E3D400853F23 /* Main.storyboard */,
 				410D9F262009E3D400853F23 /* Info.plist */,
@@ -265,6 +270,7 @@
 			files = (
 				410D9F202009E3D400853F23 /* ViewController.m in Sources */,
 				410D9F282009E3D400853F23 /* main.m in Sources */,
+				410D9F4D2009E52D00853F23 /* GHMainView.m in Sources */,
 				410D9F1D2009E3D400853F23 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
